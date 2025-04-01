@@ -1,0 +1,139 @@
+.presentation,
+.about,
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.projects {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.projects-list {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.about,
+.contact-section {
+  background-color: #242525;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-direction: column;
+}
+
+.about-title,
+.stack {
+  margin-top: 100px;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+}
+
+.stack {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-presentation {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+.techs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+.techs > span {
+  border: 1px solid #ccc;
+  height: 40px;
+  padding: 10px;
+  background-color: #ccc;
+  color: #242525;
+}
+
+.techs > span:hover {
+  border: 1px solid #969696;
+  background-color: #969696;
+  color: #242525;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  padding-top: 100px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50vw;
+}
+
+.contact-form > input {
+  padding: 10px;
+}
+
+.contact-form > textarea {
+  height: 300px;
+}
+
+.contact-form > input[type="submit"] {
+  color: #242525;
+}
+
+.float-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: fixed;
+  top: 80%;
+  right: 20px;
+}
+
+.return-top,
+.my-cv {
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+img[alt="return-top"],
+img[alt="my-cv"] {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.cv-icon {
+  text-decoration: none;
+  color: #242525;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}

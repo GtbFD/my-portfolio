@@ -1,0 +1,21 @@
+.footer {
+  background-color: black;
+  height: 100px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  top: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footer > div {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}

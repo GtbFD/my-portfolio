@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="profile">
-          <img alt="" src="src/assets/profile.jpg"></img>
+          <img alt="" src="/profile.jpg"></img>
           <span>Gutemberg F. Dantas</span>
         </div>
         <div className="navigation">

@@ -59,7 +59,7 @@ const Home = () => {
 
         <Section id="projects" className="projects">
           <div className="projects-list">
-            <img src="/src/assets/notebook_screen.jpg"></img>
+            <img src="/notebook_screen.jpg"></img>
           </div>
         </Section>
 
@@ -87,12 +87,12 @@ const Home = () => {
         <FloatNav>
           <div className="return-top">
             <a href="/#home">
-              <img src="/src/assets/back-top.png" alt="return-top" />
+              <img src="/back-top.png" alt="return-top" />
             </a>
           </div>
           <div className="my-cv">
             <a
-              href="/src/assets/Gutemberg Ferreira Dantas - Desenvolvedor Back-End.pdf"
+              href="/Gutemberg Ferreira Dantas - Desenvolvedor Back-End.pdf"
               download
               class="cv-icon"
             >
